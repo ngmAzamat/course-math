@@ -32,4 +32,46 @@ $$
 = \frac{4x^2 - 25y^2}{x^3 + 2^3} × \frac{x^2 - 2x + 2^2}{2x + 5y}
 = \frac{(4x^2 - 25y^2) × (x^2 - 2x + 2^2)}{(x^3 + 2^3) × (2x + 5y)}
 = \frac{((2x)^2 - (5y)^2) × (x - 2)^2}{(x^3 + 2^3) × (2x + 5y)}
+= \frac{(2x - 5y)(2x + 5y) × (x - 2)^2}{(x^3 + 2^3) × (2x + 5y)}
+= \frac{(2x - 5y)(x - 2)(x - 2)}{(x^3 + 2^3)}
+$$
+
+учитель делает проще и эффектнее:
+
+$$
+\frac{4x^2 - 25y^2}{x^3 + 8} / \frac{2x + 5y}{x^2 - 2x + 4}
+= \frac{4x^2 - 25y^2}{x^3 + 2^3} / \frac{2x + 5y}{x^2 - 2x + 2^2}
+= \frac{4x^2 - 25y^2}{x^3 + 2^3} × \frac{x^2 - 2x + 2^2}{2x + 5y}
+= \frac{(2x)^2 - (5y)^2}{x^3 + 2^3} × \frac{x^2 - 2x + 2^2}{2x + 5y}
+= \frac{(2x - 5y)(2x + 5y)}{x^3 + 2^3} × \frac{x^2 - 2x + 2^2}{2x + 5y}
+= \frac{(2x - 5y)(2x + 5y)}{(x + 2)(x^2 - 2x + 2^2)} × \frac{x^2 - 2x + 2^2}{2x + 5y}
+$$
+
+а я продолжаю мысль учителя:
+
+$$
+\frac{(2x - 5y)(2x + 5y)}{(x + 2)(x^2 - 2x + 2^2)} × \frac{x^2 - 2x + 2^2}{2x + 5y}
+= \frac{(2x - 5y)}{(x + 2)(x^2 - 2x + 2^2)} × \frac{x^2 - 2x + 2^2}{1}
+= \frac{(2x - 5y)}{(x + 2)} × \frac{1}{1}
+= \frac{2x - 5y}{x + 2}
+$$
+
+$$
+\frac{a^2 + ax + ab + bx}{a^2 - ax - ab + bx} × \frac{a^2 - ax - bx + ab}{a^2 + ax - bx - ab}
+= \frac{(a^2 + ax + ab) + bx}{(a^2 - ax - ab) + bx} × \frac{a^2 - ax - bx + ab}{a^2 + ax - bx - ab}
+= \frac{a(a + x + b) + bx}{a(a - x - b) + bx} × \frac{a^2 - ax - bx + ab}{a^2 + ax - bx - ab}
+= \frac{a + x + b + bx}{a - x - b + bx} × \frac{a^2 - ax - bx + ab}{a^2 + ax - bx - ab}
+= \frac{a + x + b + bx}{a - x - b + bx} × \frac{a(a - x) - bx + ab}{a(a + x) - bx - ab}
+= \frac{a + x + b + bx}{a - x - b + bx} × \frac{a - x - bx + ab}{a + x - bx - ab}
+= \frac{(a + x) + b + bx}{a - x - b + bx} × \frac{a - x - bx + ab}{(a + x) - bx - ab}
+= \frac{+ b + bx}{a - x - b + bx} × \frac{a - x - bx + ab}{- bx - ab}
+= \frac{b + bx}{(a - x) - b + bx} × \frac{(a - x) - bx + ab}{-bx - ab}
+= \frac{b + bx}{- b + bx} × \frac{- bx + ab}{-bx - ab}
+= \frac{b + bx}{-b + bx} × \frac{-bx + ab}{-bx - ab}
+= \frac{b + bx}{bx - b} × \frac{ab - bx}{-bx - ab}
+= \frac{b(1 + x)}{b(x - 1)} × \frac{ab - bx}{-bx - ab}
+= \frac{1 + x}{x - 1} × \frac{ab - bx}{-bx - ab}
+= \frac{1 + x}{x - 1} × \frac{b(a - x)}{b(-x - a)}
+= \frac{1 + x}{x - 1} × \frac{a - x}{-x - a}
+= \frac{1 + x}{x - 1} × \frac{a - x}{-x - a}
 $$
